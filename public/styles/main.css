@@ -1,0 +1,41 @@
+.header {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 5px;
+}
+
+h1 {
+    color: rgb(34, 18, 154);
+}
+
+body {
+    background-color: rgb(186, 177, 177,10);
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  img {
+    width: 450px;
+    height: 500px;
+}
+

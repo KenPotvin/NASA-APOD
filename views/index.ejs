@@ -1,0 +1,14 @@
+<%- include('partials/header.ejs'); %> 
+     
+        <div style="width: 100%; overflow: hidden;">
+            <div style="width: 600px; float: left;"> <img src="<%= nasaData.url %>" alt="NASA Picture"> </div>
+            <div style="margin-left: 20;"> <P><%= nasaData.explanation  %></P> </div>
+       </div>
+
+       <form class="item" action="/" method="post">
+        <label for="date">Date:</label><br>
+        <input type="text" id="date" name="date" placeholder="YYYY-MM-DD"><br><br>
+        <input type="submit" value="Submit">
+      </form> 
+        
+<%- include('partials/footer.ejs'); %>
