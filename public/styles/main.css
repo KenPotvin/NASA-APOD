@@ -2,6 +2,7 @@
     background-color: #F1F1F1;
     text-align: center;
     padding: 5px;
+    font-size: medium;
 }
 
 h1 {
@@ -35,7 +36,14 @@ body {
   }
 
   img {
-    width: 450px;
+    width: 700px;
     height: 500px;
+}
+
+.explan {
+  padding: 25px;
+  border-color: black;
+  border: none;
+  margin: 5em;
 }
 
