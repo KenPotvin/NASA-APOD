@@ -30,13 +30,9 @@ app.get("/", async (req, res) => {
         const response = await axios.get(baseUrl, config);
         data = response.data;
         imgUrl = response.data.url;
-
-        //console.log(response.data);
-        
     }
     catch (error) {
         console.log("API Error " + error.message);
-
     }
 
     res.render("index.ejs", {nasaData: data});
@@ -44,19 +40,15 @@ app.get("/", async (req, res) => {
 
 app.post("/", async (req, res) => {
 
-    console.log(req.body.date);
     config.params.date = req.body.date;
 
     try {
         const response = await axios.get(baseUrl, config);
         data = response.data;
         imgUrl = response.data.url;
-
-        //console.log(response.data);
     }
     catch (error) {
         console.log("API Error " + error.message);
-
     }
 
     res.render("index.ejs", {nasaData: data});
